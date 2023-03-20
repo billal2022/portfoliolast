@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Billal-Tadjine/static/css/main.b917f47f.css",
+    "main.js": "/Billal-Tadjine/static/js/main.2c40ec75.js",
+    "static/media/2.png": "/Billal-Tadjine/static/media/2.72c12f4768635fc8e4b6.png",
+    "static/media/1.png": "/Billal-Tadjine/static/media/1.83a78d0b5ede50097a3f.png",
+    "static/media/3.png": "/Billal-Tadjine/static/media/3.81807b01fff361acc1e0.png",
+    "static/media/4.png": "/Billal-Tadjine/static/media/4.227ed8370c9e011ac208.png",
+    "static/media/billalcv.pdf": "/Billal-Tadjine/static/media/billalcv.fde8a41754ed914333d1.pdf",
+    "static/media/logo-portfolio.svg?yptdyb": "/Billal-Tadjine/static/media/logo-portfolio.4e46f917a550e71866e1.svg",
+    "static/media/logo-portfolio.eot?yptdyb": "/Billal-Tadjine/static/media/logo-portfolio.1bee8f7d9872978985ed.eot",
+    "static/media/logo-portfolio.woff?yptdyb": "/Billal-Tadjine/static/media/logo-portfolio.10aebdba8b34c33dd845.woff",
+    "static/media/logo-portfolio.ttf?yptdyb": "/Billal-Tadjine/static/media/logo-portfolio.f6c32f54f3be8f8e49bc.ttf",
+    "index.html": "/Billal-Tadjine/index.html",
+    "main.b917f47f.css.map": "/Billal-Tadjine/static/css/main.b917f47f.css.map",
+    "main.2c40ec75.js.map": "/Billal-Tadjine/static/js/main.2c40ec75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b917f47f.css",
+    "static/js/main.2c40ec75.js"
+  ]
+}
