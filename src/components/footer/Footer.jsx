@@ -2,7 +2,7 @@ import "./Footer.css";
 import { GoMarkGithub } from "react-icons/go";
 import { BsLinkedin } from "react-icons/bs";
 import { SiFrontendmentor } from "react-icons/si";
-import resume from "./billalcv.pdf";
+import resume from "./billalcv (2).pdf";
 
 export default function Footer() {
   return (
