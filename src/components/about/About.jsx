@@ -2,7 +2,7 @@ import "./About.css";
 import Title from "../../constants/titles/Title";
 import { AiFillHtml5, AiOutlineGithub } from "react-icons/ai";
 import { FaSearchengin, FaBootstrap } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss,SiTypescript } from "react-icons/si";
 import {
   DiCss3,
   DiJavascript,
@@ -62,31 +62,31 @@ function About() {
             data-aos-easing="ease-in-out"
             data-aos-duration="1200"
             className="About__section-skills-skills">
-            <Icons icons={<AiFillHtml5 />} disc="HTML" className="icons" />
-            <Icons icons={<DiCss3 />} disc="CSS" className="icons" />
+            <Icons icons={<AiFillHtml5 fill="#E96228" />} disc="HTML" className="icons" />
+            <Icons icons={<DiCss3 fill="#2862E9"/>} disc="CSS" className="icons" />
             <Icons
-              icons={<DiJavascript />}
+              icons={<DiJavascript fill="#F6D33A" />}
               disc="JavaScript"
               className="icons"
             />
-            <Icons icons={<DiReact />} disc="React" className="icons" />
-            <Icons icons={<DiSass />} disc="SASS" className="icons" />
-            <Icons icons={<DiGit />} disc="Git" className="icons" />
+            <Icons icons={<DiReact fill="#5ED3F3"/>} disc="React" className="icons" />
+            <Icons icons={<DiSass fill="#CF649B" />} disc="SASS" className="icons" />
+            <Icons icons={<DiGit fill="#E84D31"/>} disc="Git" className="icons" />
             <Icons
               icons={<AiOutlineGithub />}
               disc="GitHub"
               className="icons"
             />
             <Icons
-              icons={<DiResponsive />}
-              disc="Responsive Design"
+              icons={<SiTypescript fill="#2F74C0" />}
+              disc="Typescript"
               className="icons"
             />
-            <Icons icons={<FaSearchengin />} disc="SEO" className="icons" />
+            <Icons icons={<FaSearchengin fill="#364A5C"/>} disc="SEO" className="icons" />
             <Icons icons={<DiTerminal />} disc="Terminal" className="icons" />
-            <Icons icons={<FaBootstrap />} disc="Bootstrap" className="icons" />
+            <Icons icons={<FaBootstrap fill="#7510EC" />} disc="Bootstrap" className="icons" />
             <Icons
-              icons={<SiTailwindcss />}
+              icons={<SiTailwindcss fill="#35B3EB" />}
               style={{ color: "green" }}
               disc="Tailwind"
             />
