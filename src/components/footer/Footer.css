@@ -1,0 +1,195 @@
+.Footer__main {
+  background-color: var(--hover-sky-blue);
+}
+.Footer__main h2,
+.Footer__main p,
+.Footer__main span {
+  color: #fff;
+}
+.Footer__main h2 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.Footer__main p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #eee;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.Footer__main-container {
+  max-width: 120rem;
+  margin: auto;
+  width: 80%;
+}
+.Footer__main-container-content-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+@media (max-width: 991.98px) {
+  .Footer__main-container-content-top {
+    padding: 6rem 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .Footer__main-container-content-top {
+    display: block;
+  }
+}
+.Footer__main-container-content-top-left {
+  width: 40%;
+  max-width: 50rem;
+}
+@media (max-width: 767.98px) {
+  .Footer__main-container-content-top-left {
+    width: auto;
+    margin-bottom: 3rem;
+  }
+}
+.Footer__main-container-content-top-right span {
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.Footer__main-container-content-top-right-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 17px;
+  font-size: 1.7rem;
+}
+.Footer__main-container-content-top-right-icons * {
+  color: white;
+}
+.Footer__main-container-content-top-right-icons *:hover, .Footer__main-container-content-top-right-icons *:focus {
+  color: black;
+}
+.Footer__main-container-bot {
+  padding: 4rem 0;
+  border-top: 2px solid #363636;
+  color: #eee;
+  font-size: 1.2rem;
+  text-align: left;
+  text-align: center;
+}
+.Footer__main-container-bot a {
+  color: white;
+}
+@media (max-width: 991.98px) {
+  .Footer__main-container-bot {
+    padding: 3.5rem 0;
+  }
+}
+
+.resume {
+  margin-top: 1rem;
+}
+
+/* custom resume download button */
+.RESUME,
+.RESUME::after {
+  padding: 10px 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  position: relative;
+  text-decoration: none;
+}
+
+.RESUME::after {
+  --move1: inset(50% 50% 50% 50%);
+  --move2: inset(31% 0 40% 0);
+  --move3: inset(39% 0 15% 0);
+  --move4: inset(45% 0 40% 0);
+  --move5: inset(45% 0 6% 0);
+  --move6: inset(14% 0 61% 0);
+  -webkit-clip-path: var(--move1);
+          clip-path: var(--move1);
+  content: "DOWNLAOD";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+.RESUME:hover::after {
+  animation: glitch_4011 1s;
+  text-shadow: 10 10px 10px black;
+  animation-timing-function: steps(2, end);
+  text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #e94be8;
+  background-color: transparent;
+  border: 3px solid rgb(0, 255, 213);
+}
+
+.RESUME:hover {
+  text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #e94be8;
+}
+
+.RESUME:hover {
+  background-color: transparent;
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, 0.445);
+  box-shadow: 0px 10px 10px -10px white;
+}
+
+@keyframes glitch_4011 {
+  0% {
+    -webkit-clip-path: var(--move1);
+            clip-path: var(--move1);
+    transform: translate(0px, -10px);
+  }
+  10% {
+    -webkit-clip-path: var(--move2);
+            clip-path: var(--move2);
+    transform: translate(-10px, 10px);
+  }
+  20% {
+    -webkit-clip-path: var(--move3);
+            clip-path: var(--move3);
+    transform: translate(10px, 0px);
+  }
+  30% {
+    -webkit-clip-path: var(--move4);
+            clip-path: var(--move4);
+    transform: translate(-10px, 10px);
+  }
+  40% {
+    -webkit-clip-path: var(--move5);
+            clip-path: var(--move5);
+    transform: translate(10px, -10px);
+  }
+  50% {
+    -webkit-clip-path: var(--move6);
+            clip-path: var(--move6);
+    transform: translate(-10px, 10px);
+  }
+  60% {
+    -webkit-clip-path: var(--move1);
+            clip-path: var(--move1);
+    transform: translate(10px, -10px);
+  }
+  70% {
+    -webkit-clip-path: var(--move3);
+            clip-path: var(--move3);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    -webkit-clip-path: var(--move2);
+            clip-path: var(--move2);
+    transform: translate(10px, -10px);
+  }
+  90% {
+    -webkit-clip-path: var(--move4);
+            clip-path: var(--move4);
+    transform: translate(-10px, 10px);
+  }
+  100% {
+    -webkit-clip-path: var(--move1);
+            clip-path: var(--move1);
+    transform: translate(0);
+  }
+}/*# sourceMappingURL=Footer.css.map */

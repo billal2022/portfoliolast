@@ -1,0 +1,42 @@
+.arrow {
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  align-items: center;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  background: #fff;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  bottom: 20px;
+  color: #5f6368;
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  min-width: 0;
+  overflow: visible;
+  position: fixed;
+  right: 20px;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 1, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 1, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 56px;
+  z-index: 80;
+  box-shadow: none;
+  background: #3c4043;
+  color: #9aa0a6;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(40deg, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+.arrow:active {
+  transform: scale(0.9);
+}
+.arrow * {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(40deg, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}/*# sourceMappingURL=App.css.map */
