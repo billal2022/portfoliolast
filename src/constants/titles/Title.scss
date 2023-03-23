@@ -1,24 +1,20 @@
-.Title{
+.Title {
     margin-bottom: 2.5rem;
     display: grid;
     justify-items: center;
-&-line{
-    height: 5px;
-    width: 3rem;
-    background: var(--hover-sky-blue);
-    border-radius: 5px;
-}
-&-h{
-    letter-spacing: 3px;
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    line-height: 1;
-    @media (max-width: 768px){
-    	font-size: 2rem;
+    &-line {
+        height: 5px;
+        width: 3rem;
+        background: var(--hover-sky-blue);
+        border-radius: 5px;
     }
-
+    &-h {
+        letter-spacing: 3px;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        line-height: 1;
+        @media (max-width: 768px) {
+            font-size: 2rem;
+        }
+    }
 }
-
-}
-
-

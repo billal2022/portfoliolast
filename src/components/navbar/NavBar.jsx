@@ -59,7 +59,9 @@ const BasicExample = () => {
       className={scrollEffect ? "app__navbar scroll" : "app__navbar"}>
       <div className="app__navbar-logo">
         <span className="icon-atom logo"></span>
-        <a href="#Home" className="app__navbar-title">BILLAL TADJINE</a>
+        <a href="#Home" className="app__navbar-title">
+          BILLAL TADJINE
+        </a>
       </div>
 
       <label className="hamburger">
@@ -79,7 +81,7 @@ const BasicExample = () => {
 
       <ul ref={menuRef} className={menu_class}>
         <li className="p__opensans">
-          <Link  spy={true} onClick={updateMenu} to="Home">
+          <Link spy={true} onClick={updateMenu} to="Home">
             Home
           </Link>
         </li>

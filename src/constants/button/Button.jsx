@@ -1,7 +1,12 @@
-import "./Button.css"
+import "./Button.css";
 
-export default function Button({Button,href,icon}) {
+export default function Button({ Button, href, icon }) {
   return (
-   <a targrt="_blank"className="btn" href={href}><button>{Button}{icon}</button></a>
-  )
+    <a targrt="_blank" className="btn" href={href}>
+      <button>
+        {Button}
+        {icon}
+      </button>
+    </a>
+  );
 }

@@ -54,12 +54,15 @@ export default function ProjectsData() {
                 })}
               </div>
               <div className="Pdata__container-btns">
-    
-                  <Button  data-aos="fade-up"
+                <Button
+                  data-aos="fade-up"
                   data-aos-easing="ease-in-out"
                   data-aos-anchor-placement="center-bottom"
-                   Button="Code" href={b.visit} target="_blank" />
-           
+                  Button="Code"
+                  href={b.visit}
+                  target="_blank"
+                />
+
                 <a className="noselect" href={b.source} target="_blank">
                   <button
                     data-aos="fade-up"
