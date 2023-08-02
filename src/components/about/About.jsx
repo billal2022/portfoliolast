@@ -2,14 +2,18 @@ import "./About.css";
 import Title from "../../constants/titles/Title";
 import { AiFillHtml5, AiOutlineGithub } from "react-icons/ai";
 import { FaSearchengin, FaBootstrap } from "react-icons/fa";
-import { SiTailwindcss,SiTypescript } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiTypescript,
+  SiFlutter,
+  SiRedux,
+} from "react-icons/si";
 import {
   DiCss3,
   DiJavascript,
   DiReact,
   DiSass,
   DiGit,
-  DiResponsive,
   DiTerminal,
 } from "react-icons/di";
 import Aos from "aos";
@@ -62,16 +66,36 @@ function About() {
             data-aos-easing="ease-in-out"
             data-aos-duration="1200"
             className="About__section-skills-skills">
-            <Icons icons={<AiFillHtml5 fill="#E96228" />} disc="HTML" className="icons" />
-            <Icons icons={<DiCss3 fill="#2862E9"/>} disc="CSS" className="icons" />
+            <Icons
+              icons={<AiFillHtml5 fill="#E96228" />}
+              disc="HTML"
+              className="icons"
+            />
+            <Icons
+              icons={<DiCss3 fill="#2862E9" />}
+              disc="CSS"
+              className="icons"
+            />
             <Icons
               icons={<DiJavascript fill="#F6D33A" />}
               disc="JavaScript"
               className="icons"
             />
-            <Icons icons={<DiReact fill="#5ED3F3"/>} disc="React" className="icons" />
-            <Icons icons={<DiSass fill="#CF649B" />} disc="SASS" className="icons" />
-            <Icons icons={<DiGit fill="#E84D31"/>} disc="Git" className="icons" />
+            <Icons
+              icons={<DiReact fill="#5ED3F3" />}
+              disc="React"
+              className="icons"
+            />
+            <Icons
+              icons={<DiSass fill="#CF649B" />}
+              disc="SASS"
+              className="icons"
+            />
+            <Icons
+              icons={<DiGit fill="#E84D31" />}
+              disc="Git"
+              className="icons"
+            />
             <Icons
               icons={<AiOutlineGithub />}
               disc="GitHub"
@@ -82,14 +106,23 @@ function About() {
               disc="Typescript"
               className="icons"
             />
-            <Icons icons={<FaSearchengin fill="#364A5C"/>} disc="SEO" className="icons" />
-            <Icons icons={<DiTerminal />} disc="Terminal" className="icons" />
-            <Icons icons={<FaBootstrap fill="#7510EC" />} disc="Bootstrap" className="icons" />
+            <Icons
+              icons={<FaSearchengin fill="#364A5C" />}
+              disc="SEO"
+              className="icons"
+            />
+            <Icons
+              icons={<FaBootstrap fill="#7510EC" />}
+              disc="Bootstrap"
+              className="icons"
+            />
             <Icons
               icons={<SiTailwindcss fill="#35B3EB" />}
               style={{ color: "green" }}
               disc="Tailwind"
             />
+            <Icons icons={<SiFlutter fill="#5BC2F0" />} disc="Flutter" />
+            <Icons icons={<SiRedux fill="#7248B6" />} disc="Redux" />
           </div>
         </div>
       </div>
