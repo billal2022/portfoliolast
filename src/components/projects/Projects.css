@@ -6,17 +6,20 @@
   display: grid;
   justify-items: center;
 }
+
 @media (max-width: 992px) {
   .App__Projects {
     padding-block: 0rem;
   }
 }
+
 .App__Projects-link {
   width: -moz-min-content;
   width: min-content;
   text-decoration: none;
   margin-bottom: 4rem;
 }
+
 .App__Projects-link button {
   padding: 1rem 4rem;
   background: transparent;
@@ -33,28 +36,34 @@
   gap: 1rem;
   align-items: center;
 }
+
 @media (max-width: 991.98px) {
   .App__Projects-link button {
     padding: 1rem 2rem;
     font-size: 1rem;
   }
 }
+
 .App__Projects-link button:hover {
   transform: translateY(10px);
   background-color: var(--hover-sky-blue);
   font-weight: 700;
   color: white;
 }
+
 .App__Projects-link button:hover .icon * {
   color: white;
 }
+
 .App__Projects-link button .icon {
   font-size: 3rem;
   margin-left: 1rem;
 }
+
 .App__Projects-link button .icon * {
   color: grey;
 }
+
 .App__Projects-title {
   display: grid;
   justify-items: center;
@@ -63,13 +72,18 @@
   text-align: center;
   margin-bottom: 8rem;
 }
+
 .App__Projects-p {
   color: grey;
   letter-spacing: 3px;
   max-width: 50rem;
+  line-height: 1.6;
 }
+
 @media (max-width: 991.98px) {
   .App__Projects-p {
     font-size: 1.1rem;
   }
-}/*# sourceMappingURL=Projects.css.map */
+}
+
+/*# sourceMappingURL=Projects.css.map */
