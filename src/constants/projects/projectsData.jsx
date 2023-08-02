@@ -61,9 +61,14 @@ export default function ProjectsData() {
                   Button="Code"
                   href={b.visit}
                   target="_blank"
+                  rel="noreferrer"
                 />
 
-                <a className="noselect" href={b.source} target="_blank">
+                <a
+                  className="noselect"
+                  href={b.source}
+                  target="_blank"
+                  rel="noreferrer">
                   <button
                     data-aos="fade-up"
                     data-aos-easing="ease-in-out"

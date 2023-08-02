@@ -8,15 +8,8 @@ import {
   SiFlutter,
   SiRedux,
 } from "react-icons/si";
-import {
-  DiCss3,
-  DiJavascript,
-  DiReact,
-  DiSass,
-  DiGit,
-  DiTerminal,
-} from "react-icons/di";
-import Aos from "aos";
+import { DiCss3, DiJavascript, DiReact, DiSass, DiGit } from "react-icons/di";
+
 import "aos/dist/aos.css";
 
 import Icons from "../../constants/icons/Icons";

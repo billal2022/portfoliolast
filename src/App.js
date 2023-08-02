@@ -20,7 +20,7 @@ function App() {
         setscrollUp(false);
       }
     });
-  }, [window.scrollY]);
+  }, []);
 
   return (
     <div className="App">
