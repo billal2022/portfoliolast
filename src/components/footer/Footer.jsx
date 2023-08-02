@@ -2,7 +2,7 @@ import "./Footer.css";
 import { GoMarkGithub } from "react-icons/go";
 import { BsLinkedin } from "react-icons/bs";
 import { SiFrontendmentor } from "react-icons/si";
-import resume from "./billalcv (2).pdf";
+import resume from "./billal resume 8.2.23.pdf";
 
 export default function Footer() {
   return (
@@ -26,7 +26,9 @@ export default function Footer() {
                 https://www.canva.com/billal-tadjine resume
               </a>
             </p>
-            <a className="RESUME" href={resume}  download={resume}>DOWNLOAD</a>
+            <a className="RESUME" href={resume} download={resume}>
+              DOWNLOAD
+            </a>
           </div>
 
           <div className="Footer__main-container-content-top-right">
